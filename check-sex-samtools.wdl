@@ -13,6 +13,7 @@ task checkSex{
         cpu : "1"
         memory : "1 GB"
         disks : "local-disk " + diskGB + " HDD"
+        preemptible : 2
     }
 
     output{
